@@ -1,39 +1,24 @@
 {
-  "remarks": "Тимочка VPN",
-  "outbounds": [
-    {
-      "protocol": "mtproto",
-      "settings": {
-        "servers": [
-          {
-            "address": "83.166.254.26",
-            "port": 443,
-            "users": [
-              {
-                "secret": "dd6b3fb02424dbac55fef2da67c8c949"
-              }
-            ]
-          }
-        ]
-      },
-      "tag": "Тимочка №1"
-    },
-    {
-      "protocol": "mtproto",
-      "settings": {
-        "servers": [
-          {
-            "address": "212.233.77.95",
-            "port": 443,
-            "users": [
-              {
-                "secret": "dd6b3fb02424dbac55fef2da67c8c949"
-              }
-            ]
-          }
-        ]
-      },
-      "tag": "Тимочка №2"
-    }
-  ]
+  "v": "2",
+  "ps": "Тимочка VPN - лучший vpn",
+  "add": "83.166.254.85",
+  "port": "443",
+  "protocol": "mtproto",
+  "secret": "dd6b3fb02424dbac55fef2da67c8c949"
+}
+{
+  "v": "2",
+  "ps": "Тимочка №1",
+  "add": "83.166.254.26",
+  "port": "443",
+  "protocol": "mtproto",
+  "secret": "dd6b3fb02424dbac55fef2da67c8c949"
+}
+{
+  "v": "2",
+  "ps": "Тимочка №2",
+  "add": "212.233.77.95",
+  "port": "443",
+  "protocol": "mtproto",
+  "secret": "dd6b3fb02424dbac55fef2da67c8c949"
 }
