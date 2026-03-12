@@ -1,6 +1,6 @@
 [
    {
-    "remarks": "❎ iNFO: Тайсон VPN FREE, t.me/proxy_tg_fast",
+    "remarks": "iNFO: Тайсон VPN FREE, t.me/proxy_tg_fast",
     "outbounds": [
       {
         "protocol": "socks",
@@ -120,6 +120,7 @@
     ]
   }
 ]
+
 
 
 
