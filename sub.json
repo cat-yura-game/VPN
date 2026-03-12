@@ -1,4 +1,28 @@
 [
+   {
+    "remarks": "❎ iNFO: Тайсон VPN FREE, t.me/proxy_tg_fast",
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "0.0.0.0",
+              "port": 0000
+            }
+          ]
+        },
+        "streamSettings": {
+          "sockopt": {
+            "tcpFragment": {
+              "enabled": true,
+              "domain": "xapi.ozon.ru"
+            }
+          }
+        }
+      }
+    ]
+  },
   {
     "remarks": "🇺🇸 Тайсон VPN USA",
     "outbounds": [
@@ -16,7 +40,7 @@
           "sockopt": {
             "tcpFragment": {
               "enabled": true,
-              "domain": "https://xapi.ozon.ru"
+              "domain": "xapi.ozon.ru"
             }
           }
         }
@@ -96,5 +120,6 @@
     ]
   }
 ]
+
 
 
