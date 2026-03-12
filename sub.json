@@ -1,40 +1,77 @@
-[
 {
-  "remarks": "us Тайсон VPN USA",
-  "outbounds": [{
-    "protocol": "socks",
-    "settings": {
-      "servers": [{
-        "address": "154.64.235.206",
-        "port": 58367
-      }]
+  "group": "Tyson VPN 🚀",
+  "profiles": [
+    {
+      "remarks": "🇺🇸 Тайсон VPN USA",
+      "outbounds": [
+        {
+          "protocol": "socks",
+          "settings": {
+            "servers": [
+              {
+                "address": "154.64.235.206",
+                "port": 58367
+              }
+            ]
+          },
+          "streamSettings": {
+            "sockopt": {
+              "tcpFragment": {
+                "enabled": true,
+                "domain": "fornex.com"
+              }
+            }
+          }
+        }
+      ]
     },
-    "streamSettings": {
-      "sockopt": {
-        "tcpFragment": true
-      }
-    }
-  }]
-},
-
-{
-  "remarks": "nl Тайсон VPN NL",
-  "outbounds": [{
-    "protocol": "socks",
-    "settings": {
-      "servers": [{
-        "address": "5.255.113.177",
-        "port": 1080
-      }]
+    {
+      "remarks": "🇳🇱 Тайсон VPN NL",
+      "outbounds": [
+        {
+          "protocol": "socks",
+          "settings": {
+            "servers": [
+              {
+                "address": "5.255.113.177",
+                "port": 1080
+              }
+            ]
+          },
+          "streamSettings": {
+            "sockopt": {
+              "tcpFragment": {
+                "enabled": true,
+                "domain": "fornex.com"
+              }
+            }
+          }
+        }
+      ]
     },
-    "streamSettings": {
-      "sockopt": {
-        "tcpFragment": true
-      }
+    {
+      "remarks": "🇩🇪 Тайсон VPN GE",
+      "outbounds": [
+        {
+          "protocol": "socks",
+          "settings": {
+            "servers": [
+              {
+                "address": "213.202.225.11",
+                "port": 1080
+              }
+            ]
+          },
+          "streamSettings": {
+            "sockopt": {
+              "tcpFragment": {
+                "enabled": true,
+                "domain": "fornex.com"
+              }
+            }
+          }
+        }
+      ]
     }
-  }]
+  ]
 }
-  
-]
-
-
