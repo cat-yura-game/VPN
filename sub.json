@@ -16,7 +16,7 @@
           "sockopt": {
             "tcpFragment": {
               "enabled": true,
-              "domain": "fornex.com"
+              "domain": "https://xapi.ozon.ru"
             }
           }
         }
@@ -96,4 +96,5 @@
     ]
   }
 ]
+
 
