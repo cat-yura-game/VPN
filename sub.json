@@ -1,12 +1,39 @@
-#profile-title: Тайсон VPN FREE
-#profile-update-interval: 2
-#subscription-userinfo: upload=0; download=0; total=107374182400; expire=1796101500
-#support-url: https://t.me/cat_tyson
-#fragmentation: true
-#fragmentation-type: advanced
-#fragmentation-domain: fornex.com
-socks://:@154.64.235.206:58367#🇺🇸 Тайсон VPN USA
-socks://:@5.255.113.177:1080#🇳🇱Тайсон VPN NL
-socks://:@213.202.225.11:1080#🇩🇪 Тайсон VPN GE
+[
+{
+  "remarks": "Тайсон VPN USA",
+  "outbounds": [{
+    "protocol": "socks",
+    "settings": {
+      "servers": [{
+        "address": "154.64.235.206",
+        "port": 58367
+      }]
+    },
+    "streamSettings": {
+      "sockopt": {
+        "tcpFragment": true
+      }
+    }
+  }]
+},
 
+{
+  "remarks": "Тайсон VPN NL",
+  "outbounds": [{
+    "protocol": "socks",
+    "settings": {
+      "servers": [{
+        "address": "5.255.113.177",
+        "port": 1080
+      }]
+    },
+    "streamSettings": {
+      "sockopt": {
+        "tcpFragment": true
+      }
+    }
+  }]
+}
+  
+]
 
