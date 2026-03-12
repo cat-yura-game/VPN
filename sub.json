@@ -24,14 +24,14 @@
     ]
   },
   {
-    "remarks": "🇳🇱 Тайсон VPN NL",
+    "remarks": "🇫🇷 Тайсон VPN FR",
     "outbounds": [
       {
         "protocol": "socks",
         "settings": {
           "servers": [
             {
-              "address": "5.255.113.177",
+              "address": "173.249.5.133",
               "port": 1080
             }
           ]
@@ -96,3 +96,4 @@
     ]
   }
 ]
+
