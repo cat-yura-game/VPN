@@ -1,24 +1,6 @@
-{
-  "v": "2",
-  "ps": "Тимочка VPN - лучший vpn",
-  "add": "83.166.254.85",
-  "port": "443",
-  "protocol": "mtproto",
-  "secret": "dd6b3fb02424dbac55fef2da67c8c949"
-}
-{
-  "v": "2",
-  "ps": "Тимочка №1",
-  "add": "83.166.254.26",
-  "port": "443",
-  "protocol": "mtproto",
-  "secret": "dd6b3fb02424dbac55fef2da67c8c949"
-}
-{
-  "v": "2",
-  "ps": "Тимочка №2",
-  "add": "212.233.77.95",
-  "port": "443",
-  "protocol": "mtproto",
-  "secret": "dd6b3fb02424dbac55fef2da67c8c949"
-}
+#profile-update-interval: 24
+#subscription-userinfo: upload=0; download=0; total=107374182400; expire=1767225600
+#support-url: https://t.me/cat_tyson
+socks://:@154.64.235.206:58367#🇺🇸 Тайсон VPN USA
+socks://:@5.255.113.177:1080#🇳🇱Тайсон VPN NL
+socks://:@213.202.225.11:1080#🇩🇪 Тайсон VPN GE
