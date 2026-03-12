@@ -1,6 +1,6 @@
 [
 {
-  "remarks": "Тайсон VPN USA",
+  "remarks": "us Тайсон VPN USA",
   "outbounds": [{
     "protocol": "socks",
     "settings": {
@@ -18,7 +18,7 @@
 },
 
 {
-  "remarks": "Тайсон VPN NL",
+  "remarks": "nl Тайсон VPN NL",
   "outbounds": [{
     "protocol": "socks",
     "settings": {
@@ -36,4 +36,5 @@
 }
   
 ]
+
 
