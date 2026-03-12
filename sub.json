@@ -1,77 +1,93 @@
-{
-  "group": "Tyson VPN 🚀",
-  "profiles": [
-    {
-      "remarks": "🇺🇸 Тайсон VPN USA",
-      "outbounds": [
-        {
-          "protocol": "socks",
-          "settings": {
-            "servers": [
-              {
-                "address": "154.64.235.206",
-                "port": 58367
-              }
-            ]
-          },
-          "streamSettings": {
-            "sockopt": {
-              "tcpFragment": {
-                "enabled": true,
-                "domain": "fornex.com"
-              }
+[
+  {
+    "remarks": "🇺🇸 Тайсон VPN USA",
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "154.64.235.206",
+              "port": 58367
+            }
+          ]
+        },
+        "streamSettings": {
+          "sockopt": {
+            "tcpFragment": {
+              "enabled": true,
+              "domain": "fornex.com"
             }
           }
         }
-      ]
-    },
-    {
-      "remarks": "🇳🇱 Тайсон VPN NL",
-      "outbounds": [
-        {
-          "protocol": "socks",
-          "settings": {
-            "servers": [
-              {
-                "address": "5.255.113.177",
-                "port": 1080
-              }
-            ]
-          },
-          "streamSettings": {
-            "sockopt": {
-              "tcpFragment": {
-                "enabled": true,
-                "domain": "fornex.com"
-              }
+      }
+    ]
+  },
+  {
+    "remarks": "🇳🇱Тайсон VPN NL",
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "5.255.113.177",
+              "port": 1080
+            }
+          ]
+        },
+        "streamSettings": {
+          "sockopt": {
+            "tcpFragment": {
+              "enabled": true,
+              "domain": "fornex.com"
             }
           }
         }
-      ]
-    },
-    {
-      "remarks": "🇩🇪 Тайсон VPN GE",
-      "outbounds": [
-        {
-          "protocol": "socks",
-          "settings": {
-            "servers": [
-              {
-                "address": "213.202.225.11",
-                "port": 1080
-              }
-            ]
-          },
-          "streamSettings": {
-            "sockopt": {
-              "tcpFragment": {
-                "enabled": true,
-                "domain": "fornex.com"
-              }
+      }
+    ]
+  },
+  {
+    "remarks": "🇩🇪 Тайсон VPN GE",
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "213.202.225.11",
+              "port": 1080
+            }
+          ]
+        },
+        "streamSettings": {
+          "sockopt": {
+            "tcpFragment": {
+              "enabled": true,
+              "domain": "fornex.com"
+            },
+            {
+    "remarks": "🇩🇪 Тайсон VPN (Резервный обход)",
+    "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "213.202.225.11",
+              "port": 1080
+            }
+          ]
+        },
+        "streamSettings": {
+          "sockopt": {
+            "tcpFragment": {
+              "enabled": true,
+              "domain": "max.ru"
             }
           }
         }
-      ]
-    }
-  ]
-}
+      }
+    ]
+  }
+]
