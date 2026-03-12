@@ -24,7 +24,7 @@
     ]
   },
   {
-    "remarks": "🇳🇱Тайсон VPN NL",
+    "remarks": "🇳🇱 Тайсон VPN NL",
     "outbounds": [
       {
         "protocol": "socks",
@@ -65,9 +65,14 @@
             "tcpFragment": {
               "enabled": true,
               "domain": "fornex.com"
-            },
-            {
-    "remarks": "🇩🇪 Тайсон VPN (Резервный обход)",
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "remarks": "🇩🇪 Резервный обход",
     "outbounds": [
       {
         "protocol": "socks",
