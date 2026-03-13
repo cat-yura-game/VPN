@@ -1,8 +1,3 @@
-#profile-update-interval: 24
-#subscription-userinfo: upload=0; download=0; total=107374182400; expire=1800000000
-#support-url: https://t.me/cat_tyson
-#profile-name: Тайсон VPN
-#profile-info: Нажмите вторую кнопку, меньше цифр = быстрее
 [
 {
   "remarks": "iNFO: Тайсон VPN FREE, t.me/proxy_tg_fast",
@@ -339,4 +334,5 @@
   ]
 }
 ]
+
 
