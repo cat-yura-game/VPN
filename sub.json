@@ -1,16 +1,336 @@
-#profile-update-interval: 24
-#subscription-userinfo: upload=0; download=0; total=107374182400; expire=1800000000
-#support-url: https://t.me/cat_tyson
-#profile-name: Тайсон FREE VPN
+[
+{
+  "remarks": "iNFO: Тайсон VPN FREE, t.me/proxy_tg_fast",
+  "outbounds": [
+    {
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "173.249.5.133",
+            "port": 1080
+          }
+        ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpFragment": {
+            "enabled": true,
+            "domain": "xapi.ozon.ru"
+          }
+        }
+      }
+    }
+  ]
+},
 
-socks://paqsqkgr:xmnbvs5fc340@31.59.20.176:6754#GB
-socks://paqsqkgr:xmnbvs5fc340@23.95.150.145:6114#US
-socks://paqsqkgr:xmnbvs5fc340@198.23.239.134:6540#US
-socks://paqsqkgr:xmnbvs5fc340@45.38.107.97:6014#GB
-socks://paqsqkgr:xmnbvs5fc340@107.172.163.27:6543#US
-socks://paqsqkgr:xmnbvs5fc340@198.105.121.200:6462#GB
-socks://paqsqkgr:xmnbvs5fc340@64.137.96.74:6641#ES
-socks://paqsqkgr:xmnbvs5fc340@216.10.27.159:6837#US
-socks://paqsqkgr:xmnbvs5fc340@142.111.67.146:5611#JP
-socks://paqsqkgr:xmnbvs5fc340@191.96.254.138:6185#US
+{
+  "remarks": "🇬🇧 Тайсон VPN UK",
+  "outbounds": [
+    {
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "31.59.20.176",
+            "port": 6754,
+            "users": [
+              {
+                "user": "paqsqkgr",
+                "pass": "xmnbvs5fc340"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpFragment": {
+            "enabled": true,
+            "domain": "fornex.ru"
+          }
+        }
+      }
+    }
+  ]
+},
 
+{
+  "remarks": "🇺🇸 Тайсон VPN USA",
+  "outbounds": [
+    {
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "23.95.150.145",
+            "port": 6114,
+            "users": [
+              {
+                "user": "paqsqkgr",
+                "pass": "xmnbvs5fc340"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpFragment": {
+            "enabled": true,
+            "domain": "fornex.ru"
+          }
+        }
+      }
+    }
+  ]
+},
+
+{
+  "remarks": "🇺🇸 Тайсон VPN USA",
+  "outbounds": [
+    {
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "198.23.239.134",
+            "port": 6540,
+            "users": [
+              {
+                "user": "paqsqkgr",
+                "pass": "xmnbvs5fc340"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpFragment": {
+            "enabled": true,
+            "domain": "fornex.ru"
+          }
+        }
+      }
+    }
+  ]
+},
+
+{
+  "remarks": "🇬🇧 Тайсон VPN UK",
+  "outbounds": [
+    {
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "45.38.107.97",
+            "port": 6014,
+            "users": [
+              {
+                "user": "paqsqkgr",
+                "pass": "xmnbvs5fc340"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpFragment": {
+            "enabled": true,
+            "domain": "fornex.ru"
+          }
+        }
+      }
+    }
+  ]
+},
+
+{
+  "remarks": "🇺🇸 Тайсон VPN USA",
+  "outbounds": [
+    {
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "107.172.163.27",
+            "port": 6543,
+            "users": [
+              {
+                "user": "paqsqkgr",
+                "pass": "xmnbvs5fc340"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpFragment": {
+            "enabled": true,
+            "domain": "fornex.ru"
+          }
+        }
+      }
+    }
+  ]
+},
+
+{
+  "remarks": "🇬🇧 Тайсон VPN UK",
+  "outbounds": [
+    {
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "198.105.121.200",
+            "port": 6462,
+            "users": [
+              {
+                "user": "paqsqkgr",
+                "pass": "xmnbvs5fc340"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpFragment": {
+            "enabled": true,
+            "domain": "fornex.ru"
+          }
+        }
+      }
+    }
+  ]
+},
+
+{
+  "remarks": "🇪🇸 Тайсон VPN Spain",
+  "outbounds": [
+    {
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "64.137.96.74",
+            "port": 6641,
+            "users": [
+              {
+                "user": "paqsqkgr",
+                "pass": "xmnbvs5fc340"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpFragment": {
+            "enabled": true,
+            "domain": "fornex.ru"
+          }
+        }
+      }
+    }
+  ]
+},
+
+{
+  "remarks": "🇺🇸 Тайсон VPN USA",
+  "outbounds": [
+    {
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "216.10.27.159",
+            "port": 6837,
+            "users": [
+              {
+                "user": "paqsqkgr",
+                "pass": "xmnbvs5fc340"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpFragment": {
+            "enabled": true,
+            "domain": "fornex.ru"
+          }
+        }
+      }
+    }
+  ]
+},
+
+{
+  "remarks": "🇯🇵 Тайсон VPN Japan",
+  "outbounds": [
+    {
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "142.111.67.146",
+            "port": 5611,
+            "users": [
+              {
+                "user": "paqsqkgr",
+                "pass": "xmnbvs5fc340"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpFragment": {
+            "enabled": true,
+            "domain": "fornex.ru"
+          }
+        }
+      }
+    }
+  ]
+},
+
+{
+  "remarks": "🇺🇸 Тайсон VPN USA",
+  "outbounds": [
+    {
+      "protocol": "socks",
+      "settings": {
+        "servers": [
+          {
+            "address": "191.96.254.138",
+            "port": 6185,
+            "users": [
+              {
+                "user": "paqsqkgr",
+                "pass": "xmnbvs5fc340"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpFragment": {
+            "enabled": true,
+            "domain": "fornex.ru"
+          }
+        }
+      }
+    }
+  ]
+}
+]
