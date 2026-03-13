@@ -25,7 +25,7 @@
 },
 
 {
-  "remarks": "🇬🇧 Тайсон VPN UK",
+  "remarks": "🇬🇧 London-1 | Тайсон VPN",
   "outbounds": [
     {
       "protocol": "socks",
@@ -56,7 +56,7 @@
 },
 
 {
-  "remarks": "🇺🇸 Тайсон VPN USA",
+  "remarks": "🇺🇸 Buffalo-1 | Тайсон VPN",
   "outbounds": [
     {
       "protocol": "socks",
@@ -87,7 +87,7 @@
 },
 
 {
-  "remarks": "🇺🇸 Тайсон VPN USA",
+  "remarks": "🇺🇸 Buffalo-2 | Тайсон VPN",
   "outbounds": [
     {
       "protocol": "socks",
@@ -118,7 +118,7 @@
 },
 
 {
-  "remarks": "🇬🇧 Тайсон VPN UK",
+  "remarks": "🇬🇧 London-2 | Тайсон VPN",
   "outbounds": [
     {
       "protocol": "socks",
@@ -149,7 +149,7 @@
 },
 
 {
-  "remarks": "🇺🇸 Тайсон VPN USA",
+  "remarks": "🇺🇸 Bloomingdale | Тайсон VPN",
   "outbounds": [
     {
       "protocol": "socks",
@@ -180,7 +180,7 @@
 },
 
 {
-  "remarks": "🇬🇧 Тайсон VPN UK",
+  "remarks": "🇬🇧 City of London | Тайсон VPN",
   "outbounds": [
     {
       "protocol": "socks",
@@ -211,7 +211,7 @@
 },
 
 {
-  "remarks": "🇪🇸 Тайсон VPN Spain",
+  "remarks": "🇪🇸 Madrid | Тайсон VPN",
   "outbounds": [
     {
       "protocol": "socks",
@@ -242,7 +242,7 @@
 },
 
 {
-  "remarks": "🇺🇸 Тайсон VPN USA",
+  "remarks": "🇺🇸 Dallas | Тайсон VPN",
   "outbounds": [
     {
       "protocol": "socks",
@@ -273,7 +273,7 @@
 },
 
 {
-  "remarks": "🇯🇵 Тайсон VPN Japan",
+  "remarks": "🇯🇵 Tokyo | Тайсон VPN",
   "outbounds": [
     {
       "protocol": "socks",
@@ -304,7 +304,7 @@
 },
 
 {
-  "remarks": "🇺🇸 Тайсон VPN USA",
+  "remarks": "🇺🇸 Los Angeles | Тайсон VPN",
   "outbounds": [
     {
       "protocol": "socks",
