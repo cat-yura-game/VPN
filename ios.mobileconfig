@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AccessRights</key>
+			<integer>8191</integer>
+			<key>IdentityCertificateUUID</key>
+			<string>336421a2-a144-4398-8115-f569f4d928ae</string>
+			<key>PayloadDescription</key>
+			<string>Configures Miradore Mobile Device Management</string>
+			<key>PayloadDisplayName</key>
+			<string>Miradore Mobile Device Management</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.5301fa61-c444-41db-b4bb-820fcb420c8c</string>
+			<key>PayloadOrganization</key>
+			<string>cat store</string>
+			<key>PayloadType</key>
+			<string>com.apple.mdm</string>
+			<key>PayloadUUID</key>
+			<string>5301fa61-c444-41db-b4bb-820fcb420c8c</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ServerCapabilities</key>
+			<array>
+				<string>com.apple.mdm.per-user-connections</string>
+				<string>com.apple.mdm.bootstraptoken</string>
+			</array>
+			<key>ServerURL</key>
+			<string>https://gateway.miradore.com:443/637705BD-134A-4276-A3CA-483443C3726A/iOS.ashx</string>
+			<key>SignMessage</key>
+			<true/>
+			<key>Topic</key>
+			<string>com.apple.mgmt.External.5020fc3a-5986-4e04-bae0-1a296e5bf21f</string>
+			<key>UseDevelopmentAPNS</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>Challenge</key>
+				<string>40207793c4d34005bf8d0308d63295ab</string>
+				<key>Key Type</key>
+				<string>RSA</string>
+				<key>Key Usage</key>
+				<integer>0</integer>
+				<key>Keysize</key>
+				<integer>2048</integer>
+				<key>Name</key>
+				<string>Instance SCEP CA 00000000-0000-0000-0000-000000000001</string>
+				<key>Subject</key>
+				<array>
+					<array>
+						<array>
+							<string>CN</string>
+							<string>4758aa6a5b7445349145a5d442a28538</string>
+						</array>
+					</array>
+				</array>
+				<key>URL</key>
+				<string>https://ejbca.miradore.com/scep_device</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Provides device encryption identity</string>
+			<key>PayloadDisplayName</key>
+			<string>Encryption Identity</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.scep.336421a2-a144-4398-8115-f569f4d928ae</string>
+			<key>PayloadOrganization</key>
+			<string>cat store</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.scep</string>
+			<key>PayloadUUID</key>
+			<string>336421a2-a144-4398-8115-f569f4d928ae</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configures Miradore Mobile Device Management</string>
+	<key>PayloadDisplayName</key>
+	<string>Miradore Mobile Device Management</string>
+	<key>PayloadIdentifier</key>
+	<string>iMazing-Profile-Editor.87712acf-ac9b-486e-b7b2-183bada15d34</string>
+	<key>PayloadOrganization</key>
+	<string>cat store</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>87712acf-ac9b-486e-b7b2-183bada15d34</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
